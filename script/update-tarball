@@ -13,7 +13,6 @@ my $version = shift or die "no version";
 `cd gumbo-src; ./autogen.sh && ./configure && make dist`;
 `cp -a gumbo-src/gumbo-*.tar.gz .`;
 `git add gumbo-*.tar.gz`;
-`cat MANIFEST | perl -ne 'm{^gumbo-.*\.tar\.gz\$} || print' > MANIFEST`;
 `./Build manifest`;
 `git add MANIFEST`;
 `git commit -m "update gumbo tarball" gumbo-* MANIFEST`;
