@@ -28,6 +28,14 @@ B<If you're interested in parsing HTML> then you want L<HTML::Gumbo> module, not
 
 Ruslan Zakirov E<lt>Ruslan.Zakirov@gmail.comE<gt>
 
+Best Practical Solutions, LLC E<lt>modules@bestpractical.comE<gt>
+
+=head1 BUGS
+
+All bugs should be reported via email to: L<bug-Alien-LibGumbo@rt.cpan.org|mailto:bug-Alien-LibGumbo@rt.cpan.org>
+
+Or via the web at: L<rt.cpan.org|http://rt.cpan.org/Public/Dist/Display.html?Name=Alien-LibGumbo>.
+
 =head1 LICENSE
 
 Under the same terms as perl itself.

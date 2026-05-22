@@ -18,6 +18,14 @@ the maintained fork by Grigory Kirillov, whose first release of the fork
 
 Ruslan Zakirov <Ruslan.Zakirov@gmail.com>
 
+Best Practical Solutions, LLC <modules@bestpractical.com>
+
+# BUGS
+
+All bugs should be reported via email to: [bug-Alien-LibGumbo@rt.cpan.org](mailto:bug-Alien-LibGumbo@rt.cpan.org)
+
+Or via the web at: [rt.cpan.org](http://rt.cpan.org/Public/Dist/Display.html?Name=Alien-LibGumbo).
+
 # LICENSE
 
 Under the same terms as perl itself.

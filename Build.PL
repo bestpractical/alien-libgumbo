@@ -22,7 +22,8 @@ my %module_build_args = (
   },
   "dist_abstract" => "gumbo parser library",
   "dist_author" => [
-    "Ruslan Zakirov <Ruslan.Zakirov\@gmail.com>"
+    "Ruslan Zakirov <Ruslan.Zakirov\@gmail.com>",
+    "Best Practical Solutions, LLC <modules\@bestpractical.com>"
   ],
   "dist_name" => "Alien-LibGumbo",
   "dist_version" => "0.05",
