@@ -8,11 +8,11 @@ my $version = shift or die "no version";
 
 `git rm gumbo-*.tar.gz`;
 `git submodule foreach git checkout $version`;
-`git commit -m "update gumbo source" gumbo-src`;
+`git commit -m "Update gumbo source to $version" gumbo-src`;
 `rm -fr gumbo-src/gumbo-*.tar.gz`;
 `cd gumbo-src; ./autogen.sh && ./configure && make dist`;
 `cp -a gumbo-src/gumbo-*.tar.gz .`;
 `git add gumbo-*.tar.gz`;
 `./Build manifest`;
 `git add MANIFEST`;
-`git commit -m "update gumbo tarball" gumbo-* MANIFEST`;
+`git commit -m "Update gumbo tarball to $version" gumbo-* MANIFEST`;
