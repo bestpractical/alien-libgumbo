@@ -14,8 +14,13 @@ Alien::LibGumbo - Gumbo parser library
 
 =head1 DESCRIPTION
 
-This distribution installs L<libgumbo:https://github.com/google/gumbo-parser> on your
+This distribution installs L<libgumbo|https://codeberg.org/gumbo-parser/gumbo-parser> on your
 system for use by perl modules like L<HTML::Gumbo>.
+
+The original L<libgumbo|https://github.com/google/gumbo-parser> by Google was
+archived on GitHub with no development since 2016. This distribution now uses
+the maintained fork by Grigory Kirillov, whose first release of the fork
+(0.11.0) was in July 2023.
 
 B<If you're interested in parsing HTML> then you want L<HTML::Gumbo> module, not this.
 

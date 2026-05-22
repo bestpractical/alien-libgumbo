@@ -1,4 +1,4 @@
 [submodule "gumbo-src"]
 	path = gumbo-src
-	url = git@github.com:google/gumbo-parser.git
+	url = https://codeberg.org/gumbo-parser/gumbo-parser.git
 	branch = master
