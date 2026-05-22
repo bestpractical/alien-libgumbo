@@ -7,7 +7,7 @@ use autodie qw(:all);
 my $version = shift or die "no version";
 
 `git rm gumbo-*.tar.gz`;
-`git submodule foreach git checkout v$version`;
+`git submodule foreach git checkout $version`;
 `git commit -m "update gumbo source" gumbo-src`;
 `rm -fr gumbo-src/gumbo-*.tar.gz`;
 `cd gumbo-src; ./autogen.sh && ./configure && make dist`;
