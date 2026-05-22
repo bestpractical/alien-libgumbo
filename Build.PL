@@ -26,7 +26,7 @@ my %module_build_args = (
     "Best Practical Solutions, LLC <modules\@bestpractical.com>"
   ],
   "dist_name" => "Alien-LibGumbo",
-  "dist_version" => "0.05",
+  "dist_version" => "0.06",
   "license" => "perl",
   "module_name" => "Alien::LibGumbo",
   "recommends" => {},
